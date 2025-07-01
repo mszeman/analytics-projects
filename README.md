@@ -4,7 +4,7 @@ Welcome to my data analytics portfolio. This repository showcases a selection of
 
 ## 📊 Projects Overview
 
-### 1. [NBA Player Evaluation](./nba-player-evaluation)
+### 1. [NBA Player Evaluation]
 **Tools:** Python (pandas, seaborn, XGBoost), Jupyter Notebook  
 **Focus:** Regression, classification, interpolation  
 **Objective:** Identify high-performing NBA players with relatively low salaries to help teams build winning, balanced rosters under a salary cap.
@@ -14,7 +14,7 @@ Key techniques:
 - XGBoost classification to identify undervalued players
 - Linear interpolation to estimate salary value from performance
 
-### 2. [Olympic Participants Analysis](./olympic-participants)
+### 2. [Olympic Participants Analysis]
 **Tools:** SQL, Python, Google Colab  
 **Focus:** Gender representation, international participation, medal trends  
 **Objective:** Explore the evolution of female athlete participation and performance in the Olympics over time.
@@ -24,7 +24,7 @@ Key techniques:
 - Visualizations using pandas, seaborn, and matplotlib
 - Comparative analysis of medal share and gender ratios by country
 
-### 3. [Cost-Benefit Analysis of Dam Projects](./cost-benefit-analysis)
+### 3. [Cost-Benefit Analysis of Dam Projects]
 **Tools:** Excel (Monte Carlo simulation, statistical testing)  
 **Focus:** Simulation, risk analysis, economic modeling  
 **Objective:** Determine which of two proposed dam locations offers the highest community benefit based on uncertain cost and benefit inputs.
