@@ -1,10 +1,10 @@
-🌾 Clustering Seeds: Unsupervised Learning in Rseeds_script.R is a data science project developed as part of graduate coursework. The analysis applies unsupervised machine learning techniques to explore patterns in seed characteristics and group them into meaningful clusters.
+Clustering Seeds: Unsupervised Learning in Rseeds_script.R is a data science project developed as part of graduate coursework. The analysis applies unsupervised machine learning techniques to explore patterns in seed characteristics and group them into meaningful clusters.
 
-❓ Project QuestionCan we uncover natural groupings in seed types based on their physical characteristics—without using labels?
+Project QuestionCan we uncover natural groupings in seed types based on their physical characteristics—without using labels?
 This analysis clusters seeds into groups using both K-means and hierarchical clustering, based on measurable features like area, perimeter, and kernel dimensions.
 
-📊 Analysis SummaryEach observation (a seed) was evaluated using the following features:
-✅ Physical Characteristics
+Analysis SummaryEach observation (a seed) was evaluated using the following features:
+Physical Characteristics
 	•	Area
 	•	Perimeter
 	•	Compactness
@@ -16,30 +16,30 @@ The dataset was standardized and then clustered using:
 	•	K-means clustering (for k = 3 and 4)
 	•	Hierarchical clustering with average and complete linkage
 
-📁 Contents
+Contents
 	•	seeds_script.R – Full R script for data processing, clustering, and plotting
 	•	seeds_rmd.html – R Markdown version of the analysis
 	•	seeds_report.pdf – Final rendered report (PDF)
 	•	seeds_dataset.txt - original dataset from UC Irvine Machine Learning Repository
 
 
-⚙️ Methods and Models
-📏 Preprocessing
+Methods and Models
+ Preprocessing
 	•	Raw data is standardized using scale()
 	•	Final column (original labels) is dropped to allow for true unsupervised learning
-🔢 K-Means Clustering
+ K-Means Clustering
 	•	k = 4 to explore structure
 	•	k = 3 based on optimal value from the Elbow Method (fviz_nbclust)
-🌳 Hierarchical Clustering
+ Hierarchical Clustering
 	•	Distance metric: Euclidean
 	•	Linkage methods:
 	◦	Average
 	◦	Complete
 	•	Clusters visualized using dendrograms (fviz_dend)
-📈 Visualization
+ Visualization
 	•	Cluster results are plotted using PCA-based projections (fviz_cluster)
 	•	Dendrograms show nested structure among data points
 
-🔍 Key InsightClustering reveals that wheat seed characteristics can be grouped into distinct patterns even without known labels. The project demonstrates how unsupervised learning can be used to discover hidden structure in agricultural or biological data.
+ Key InsightClustering reveals that wheat seed characteristics can be grouped into distinct patterns even without known labels. The project demonstrates how unsupervised learning can be used to discover hidden structure in agricultural or biological data.
 
 Created by: Molly Szeman Last Updated: June 2025

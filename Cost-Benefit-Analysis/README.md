@@ -1,10 +1,10 @@
-# 💰 Maximizing Profit: Dam Site Cost-Benefit Analysis
+# Maximizing Profit: Dam Site Cost-Benefit Analysis
 
 **`cost-benefit-analysis.xlsx`** is an analytics project developed as part of graduate coursework. The analysis uses simulation techniques and statistical modeling to select the most economically advantageous dam site between two proposed locations.
 
 ---
 
-## ❓ Project Question
+## Project Question
 
 > **Which proposed dam site will have a greater positive impact on the surrounding community?**
 
@@ -12,11 +12,11 @@ The analysis compares projected **annual benefits and costs** across multiple ca
 
 ---
 
-## 📊 Analysis Summary
+## Analysis Summary
 
 Each site was evaluated based on:
 
-### ✅ Benefits (in $ millions)
+### Benefits (in $ millions)
 - Improved navigation  
 - Hydroelectric power  
 - Fish and wildlife  
@@ -24,7 +24,7 @@ Each site was evaluated based on:
 - Flood control  
 - Commercial development  
 
-### ✅ Costs (in $ millions)
+### Costs (in $ millions)
 - Annualized capital cost  
 - Operations and maintenance  
 
@@ -32,30 +32,30 @@ The **total benefit** is divided by the **total cost** to compute a **benefit-co
 
 ---
 
-## 📁 Contents
+## Contents
 
 - `cost-benefit-analysis.xlsx` – Spreadsheet model and simulation
 - `cost-benefit-analysis.pdf` – Written summary report
 
 ---
 
-## ⚙️ Methods and Models
+## Methods and Models
 
-- 📐 **Triangular distribution** used to estimate:
+-  **Triangular distribution** used to estimate:
   - Average cost
   - Average benefit
   - Average cost-benefit ratio for each dam
 
-- 🔁 **Monte Carlo Simulation**:
+-  **Monte Carlo Simulation**:
   - 10,000 simulations per site
   - Captures a wide range of possible benefit/cost outcomes across the 8 categories
 
-- 📊 **Chi-Squared Goodness of Fit**:
+-  **Chi-Squared Goodness of Fit**:
   - Used to assess whether the simulated output matches expected theoretical distributions
 
 ---
 
-## 🔍 Key Insight
+##  Key Insight
 
 This analysis supports data-driven decision-making by quantifying uncertainty in both cost and benefit estimates. It helps determine which dam location is more likely to yield greater economic value to the community.
 

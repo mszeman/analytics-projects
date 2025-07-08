@@ -2,7 +2,7 @@
 
 Welcome to my data analytics portfolio. This repository showcases a selection of self-directed projects I completed as part of my graduate coursework, using tools such as Python, SQL, Excel, and modeling techniques including regression, classification, simulation, and visualization. Each project is housed in its own folder and includes a detailed README.
 
-## 📊 Projects Overview
+## Projects Overview
 
 ### 1. [NBA Player Evaluation]
 **Tools:** Python (pandas, seaborn, XGBoost), Jupyter Notebook  
@@ -34,19 +34,24 @@ Key techniques:
 - 10,000-run Monte Carlo simulation
 - Cost-benefit ratio calculations and Chi-Squared Goodness of Fit testing
 
+### 4. [Seeds Clustering in R]
+**Tools:** Excel (Kmeans Clustering, Hierarchical Clustering)  
+**Focus:** classification, model comparison 
+**Objective:** Determine the best method for classifying seeds based on physical characteristics
+
+Key techniques:
+- K-means clustering (for k = 3 and 4)
+- Hierarchical clustering with average and complete linkage
+
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Python (pandas, seaborn, XGBoost, matplotlib)
 - Jupyter Notebook / Google Colab
 - SQL (MySQL Workbench)
 - Excel (simulation modeling)
+- R (tidyverse, dplyr, ggplot2)
 - GitHub for version control and sharing
 
 ---
-
-## 🤝 Let’s Connect
-
-If you’d like to discuss any of these projects, feel free to reach out via <mollyszeman@gmail.com> . I'm always open to opportunities where I can apply data and storytelling to solve real-world problems.
-

@@ -1,10 +1,10 @@
-# 🏅 Olympic Participants Analysis
+# Olympic Participants Analysis
 
 This project explores gender representation and performance in the Olympic Games, with a focus on female athlete participation and medal outcomes across countries and over time.
 
 ---
 
-## ❓ Project Questions
+## Project Questions
 
 - How has female participation in the Olympics evolved from 1896 to 2020?
 - Which countries have the highest share of female Olympians?
@@ -13,7 +13,7 @@ This project explores gender representation and performance in the Olympic Games
 
 ---
 
-## 🗂️ Overview
+## Overview
 
 The project combines **SQL** and **Python** to extract, process, and visualize data from a structured Olympic dataset (sourced from Kaggle).
 
@@ -23,16 +23,16 @@ The project combines **SQL** and **Python** to extract, process, and visualize d
 
 ---
 
-## 📁 Contents
+## Contents
 
 - `OLY_participants.ipynb` – Full analysis notebook
 - `OLY_participants.sql` – SQL scripts used for data extraction
 
 ---
 
-## 🧰 Methods and Tools
+## Methods and Tools
 
-### 🧩 SQL
+### SQL
 
 ---
 Created by: Molly Szeman
